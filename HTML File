@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pugazhandhi G - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="your-photo.jpg" alt="Pugazhandhi G">
+            <h1>Pugazhandhi G</h1>
+            <p>Web Developer | Creative Thinker | Problem Solver</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>"To secure a challenging position as a web developer where I can utilize my skills in HTML, CSS, Java, and SQL to design and develop efficient, user-friendly websites and applications. I aim to contribute to innovative projects while continuously enhancing my technical knowledge and professional growth."</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Java</li>
+                <li>SQL</li>
+                <li>Logical Thinking</li>
+                <li>Creative Thinking</li>
+                <li>Problem Solving</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <ul>
+                <li>B.E (CSE) - Rajalakshmi Institute of Technology (8.44 CGPA)</li>
+                <li>HSC - St Joseph's Matriculation Higher Secondary School (80.5%)</li>
+                <li>SSLC - St Joseph's Matriculation Higher Secondary School (95.6%)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Smart India Hackathon:</strong> Developed a software application to display a student's entire education report using HTML, CSS, and ASP.NET Core.</li>
+                <li><strong>Metaverse Education:</strong> Designed an educational game that teaches students through interactive experiences like living an ant's life.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:pugazhandhi11@gmail.com">pugazhandhi11@gmail.com</a></p>
+            <p>Phone: 9003278124</p>
+            <p>Address: No 125 Addhavan Nagar 3rd Street, Thirumazhisai, Chennai 600124</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Pugazhandhi G. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="./pugal.js"></script>
+</body>
+</html>
