@@ -1,22 +1,19 @@
- body {
+body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    color: #333;
+    color: #090000;
 }
 header {
-    background: #0073e6;
-    color: #fff;
-    text-align: center;
-    padding: 1.5em 0;
-}
-header img {
-    width: 150px;
-    border-radius: 50%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+
 }
 nav {
-    background: #333;
+    background: black;
 }
 nav ul {
     display: flex;
@@ -41,7 +38,9 @@ nav ul li a:hover {
 .container {
     max-width: 1100px;
     margin: 0 auto;
+    border-radius: 20%;
     padding: 1em;
+    background:linear-gradient(to right,violet, indigo, blue, green, yellow, orange, red);
 }
 section {
     padding: 2em 0;
@@ -51,5 +50,120 @@ footer {
     text-align: center;
     padding: 1em 0;
     background: #333;
-    color: #fff;
+    color: #fff;
+}
+
+.sidebar {
+    width: 250px;
+    background-color:black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .profile {
+    text-align: center;
+
+  }
+  
+  .profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .profile h2 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+    color: #67ff02;
+
+  }
+  
+  .profile p {
+    font-size: 14px;
+    color: #67ff02;
+  }
+  
+  .menu {
+    list-style: none;
+    padding: 0;
+    
+  }
+  
+  .menu li {
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: white;
+    font-size:25px;
+    transition: color 0.3s;
+  }
+  
+  .menu a:hover {
+    color: #00aaff;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content:space-evenly;
+  }
+  
+  .social-links a {
+    color: rgb(241, 255, 221);
+    font-size: 40px;
+    text-decoration:none;
+    transition: color 0.3s;
+  }
+  
+  .social-links a:hover {
+    color: #ff0000;
+  }
+  
+  .main-content {
+    flex: 1;
+    background: url('./images/WhatsApp\ Image\ 2025-01-06\ at\ 6.04.05\ PM\ \(3\).jpeg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+  
+  .hero {
+    text-align:center;
+    padding-left: 250px;
+  }
+  
+  .hero h1 {
+    
+    font-size: 60px;
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  .hero p {
+    margin-top: 0;
+    font-size: 30px;
+    color: rgb(104, 51, 145);
+  }
+
+  .containerf {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1em;
+    color: rgb(247, 248, 248);
+}
+#skills,
+#objective,
+#education,
+#contact,
+#projects{
+  background-color: black;
 }
