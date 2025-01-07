@@ -4,31 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pugazhandhi G - Portfolio</title>
+    <link rel="website icon" type="png" href="./images/logo sample 1.jpg">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
     <header>
-        <div class="container">
-            <img src="your-photo.jpg" alt="Pugazhandhi G">
-            <h1>Pugazhandhi G</h1>
-            <p>Web Developer | Creative Thinker | Problem Solver</p>
+        
+        <div class="sidebar">
+            <div class="profile">
+              <img src="./images/WhatsApp Image 2025-01-06 at 6.04.06 PM.jpeg" alt="Alex Smith">
+              <h2>PUGAZH</h2>
+              <p>Web Developer</p>
+            </div>
+            <ul class="menu">
+              <li><a href="#home">HOME</a></li>
+              <li><a href="#objective">OBJECTIVE</a></li>
+              <li><a href="#skills">SKILLS</a></li>
+              <li><a href="#education">EDUCATION</a></li>
+              <li><a href="#projects">PROJECT</a></li>
+              <li><a href="#dropdown">DROPDOWN</a></li>
+              <li><a href="#contact">CONTACT</a></li>
+            </ul>           
         </div>
+        
+          <div class="main-content">
+            <div class="hero">
+              <h1>PUGAZH</h1>
+              <p>Web Developer</p>
+            </div>
+          </div>
+        
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    
 
-    <section id="about">
+    <section id="objective">
         <div class="container">
-            <h2>About Me</h2>
-            <p>"To secure a challenging position as a web developer where I can utilize my skills in HTML, CSS, Java, and SQL to design and develop efficient, user-friendly websites and applications. I aim to contribute to innovative projects while continuously enhancing my technical knowledge and professional growth."</p>
+            <h2>OBJECTIVE</h2>
+            <p>"To secure a challenging position as a web developer where I can utilize my skills in HTML, CSS ,JavaScript, Java, and SQL to design and develop efficient, user-friendly websites and applications. I aim to contribute to innovative projects while continuously enhancing my technical knowledge and professional growth."</p>
         </div>
     </section>
 
@@ -77,11 +91,17 @@
     </section>
 
     <footer>
-        <div class="container">
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-skype"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="containerf">
             <p>&copy; 2025 Pugazhandhi G. All rights reserved.</p>
         </div>
     </footer>
 
-    <script src="./pugal.js"></script>
+    <script src="./pugazh.js"></script>
 </body>
 </html>
