@@ -92,10 +92,11 @@
 
     <footer>
         <div class="social-links">
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61564201186117&mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/pugazh_05?igsh=YmM5M3JuMDVxdDdj" target="_blank"><i class="fab fa-instagram"></i></a>
             <a href="#"><i class="fab fa-skype"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/in/pugazh-pugazh-83244a1bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/pugazhandhi21/Portfolio" target="_blank"><i class="fab fa-github"></i></a>
         </div>
         <div class="containerf">
             <p>&copy; 2025 Pugazhandhi G. All rights reserved.</p>
