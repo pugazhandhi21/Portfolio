@@ -3,7 +3,9 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    color: #090000;
+    font-size: 20px;
+    color: #000000;
+    font-weight:bolder;
 }
 header {
     margin: 0;
@@ -40,7 +42,8 @@ nav ul li a:hover {
     margin: 0 auto;
     border-radius: 20%;
     padding: 1em;
-    background:linear-gradient(to right,violet, indigo, blue, green, yellow, orange, red);
+    background-size: 100% 100% ;
+    background-image: url();
 }
 section {
     padding: 2em 0;
@@ -131,27 +134,36 @@ footer {
   .main-content {
     flex: 1;
     background: url('./images/WhatsApp\ Image\ 2025-01-06\ at\ 6.04.05\ PM\ \(3\).jpeg') no-repeat center center/cover;
-    display: flex;
-    align-items: center;
+
     color: white;
   }
   
   .hero {
-    text-align:center;
-    padding-left: 250px;
+    text-align: center;
+    padding-right: 500px;
+    padding-top: 100px;
   }
   
   .hero h1 {
-    
-    font-size: 60px;
-    margin-bottom: 10px;
-    color: black;
+    background-image: url("https://png.pngtree.com/background/20230528/original/pngtree-beautiful-purple-sunset-with-tree-in-the-background-picture-image_2778583.jpg");
+    font-size: 100px;
+    font-weight: bolder;
+    background-size: cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    margin-bottom: 0;
+    color: transparent;
   }
   
   .hero p {
+    background-image: url("https://png.pngtree.com/background/20230528/original/pngtree-beautiful-purple-sunset-with-tree-in-the-background-picture-image_2778583.jpg");
+    font-size: 50px;
+    font-weight: bolder;
+    background-size: cover;
+    -webkit-background-clip: text;
+    background-clip: text;
     margin-top: 0;
-    font-size: 30px;
-    color: rgb(104, 51, 145);
+    color: transparent;
   }
 
   .containerf {
@@ -165,5 +177,8 @@ footer {
 #education,
 #contact,
 #projects{
-  background-color: black;
+  background-size: 100% 100% ;
+  background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20230906/pngtree-3d-clouds-hd-wallpapers-image_13272897.jpg");
+  
 }
+
